@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test Columns",
+      "setup": "",
+      "run": "python -m unittest tests/testColumns.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test Latitude",
+      "setup": "",
+      "run": "python -m unittest tests/testLatitude.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test Longitude",
+      "setup": "",
+      "run": "python -m unittest tests/testLongitude.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test Map",
+      "setup": "",
+      "run": "python -m unittest tests/testMap.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
